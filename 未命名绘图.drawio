@@ -1,1 +1,61 @@
-<mxfile host="app.diagrams.net" modified="2022-07-01T14:07:36.652Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" version="16.6.6" etag="K01ebjQTwOd1oFLIsVp4" type="github"><diagram id="gGaowg3YpN8RsIWkAKG5">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-07-01T14:16:39.191Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="_l3lySoH7XvXeDnA0Mps" version="16.6.6" type="github">
+  <diagram id="gGaowg3YpN8RsIWkAKG5" name="第 1 页">
+    <mxGraphModel dx="1038" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Px0IkzvNUtSd5s9eNGgz-1" value="普通用户" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="200" width="45" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Px0IkzvNUtSd5s9eNGgz-2" value="" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="105" y="230" as="sourcePoint" />
+            <mxPoint x="240" y="230" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="170" y="230" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Px0IkzvNUtSd5s9eNGgz-3" value="人脸识别系统" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="190" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Px0IkzvNUtSd5s9eNGgz-6" value="视频显示模块" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="40" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Px0IkzvNUtSd5s9eNGgz-9" value="包含" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=0.986;exitY=0.323;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="Px0IkzvNUtSd5s9eNGgz-3" target="Px0IkzvNUtSd5s9eNGgz-6">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="330" y="280" as="sourcePoint" />
+            <mxPoint x="490" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Px0IkzvNUtSd5s9eNGgz-10" value="包含" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Px0IkzvNUtSd5s9eNGgz-3">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="388.03999999999996" y="222.61" as="sourcePoint" />
+            <mxPoint x="580" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Px0IkzvNUtSd5s9eNGgz-11" value="人脸检测模块" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="180" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Px0IkzvNUtSd5s9eNGgz-12" value="包含" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=0.991;exitY=0.643;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Px0IkzvNUtSd5s9eNGgz-3" target="Px0IkzvNUtSd5s9eNGgz-13">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="390" y="235" as="sourcePoint" />
+            <mxPoint x="510" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Px0IkzvNUtSd5s9eNGgz-13" value="人脸识别模块" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="300" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Px0IkzvNUtSd5s9eNGgz-14" value="数据库服务" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="440" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Px0IkzvNUtSd5s9eNGgz-15" value="包含" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=0.991;exitY=0.643;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.006;entryY=0.329;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="Px0IkzvNUtSd5s9eNGgz-14">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="388.74" y="245.01" as="sourcePoint" />
+            <mxPoint x="590" y="345" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
